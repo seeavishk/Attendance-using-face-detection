@@ -1,4 +1,3 @@
-# Attendance-using-face-detection
 # Face Recognition Attendance System
 
 This project is a real-time face recognition attendance system that utilizes computer vision technology and integrates with Firebase for real-time storage. The system is designed to efficiently detect and recognize faces, update attendance data in real-time, and provide a user-friendly interface for managing attendance records.
@@ -17,7 +16,8 @@ This project is a real-time face recognition attendance system that utilizes com
 1. Clone the repository to your local machine
 2. Install the required dependencies by running `npm install`
 3. Set up Firebase real-time storage and update the configuration in the project files
-4. Run the application using `npm start`
+4. Create a service account key JSON file in Firebase and add the URL in the project from the key obtained from Firebase storage
+5. Run the application using `npm start`
 
 ## Usage
 
@@ -40,4 +40,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Credits to the computer vision community for their advancements in face recognition technology
 
 Feel free to reach out with any questions or feedback. Thank you for using the Face Recognition Attendance System!
-****
